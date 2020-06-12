@@ -1,0 +1,47 @@
+data = `[
+    {
+        "name": "The Invisible Man",
+        "short": "get inside the mind of a female victim of domestic abuse.",
+        "poster": "img/invisible-man-2020-poster.jpg"
+    },
+    {
+        "name": "The Red Pill",
+        "short": "Propaganda documentary of Men's Rights Activists (MRA)",
+        "poster": "img/the-red-pill.jpg"
+    },
+    {
+        "name": "Red Sparrow",
+        "short": "a pre-Weinstein era espionage thriller full of gratutious violence and degradation of women",
+        "poster": "img/red-sparrow.jpg"
+    },
+    {
+        "name": "The Good Liar",
+        "short": "a well-acted thriller, multi-layered and implausible",
+        "poster": "img/the-good-liar.jpg"
+    },
+    {
+        "name": "Joker",
+        "short": "a powerfully introspective portrait of mental illness",
+        "poster": "img/joker.jpg"
+    },
+    {
+        "name": "Marriage Story",
+        "short": "an insightful, witty and sad portrait of modern marriage",
+        "poster": "img/marriage-story.jpg"
+    },
+    {
+        "name": "Tolkien",
+        "short": "a story of seamless connection between life and art",
+        "poster": "img/tolkien.jpg"
+    },
+    {
+        "name": "Woman at War",
+        "short": "a quirky tale of an eco-terrorist heroine",
+        "poster": "img/woman-at-war.jpg"
+    },
+    {
+        "name": "Sometimes Always Never",
+        "short": "portrait of a family desperately unable to communicate",
+        "poster": "img/sometimes-always-never.jpg"
+    }
+]`
