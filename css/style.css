@@ -8,13 +8,15 @@ header, footer{
     background-color: black;
     text-align: center;
     padding: 2vw 0;
+    font-size: 3vw;
 }
 
 nav{
     background-color: grey;
     color: white;
     text-align: left;
-    padding: 2vw 0;;
+    padding: 2vw 0;
+    font-size: 3vw;
 }
 
 nav a 
@@ -25,14 +27,20 @@ nav a
 }
 
 #upper{
+
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 20px;
+    font-size: 20px;
+
 }
 
 #container{
     background-color: #1D2329;
     color: white;
+    
 }
 
 #container_movies{
@@ -45,20 +53,19 @@ nav a
     background-color: #181818;
     display: flex;
     flex-direction: row;
-    width: 45%;
-    margin: 2vw;
+    /* width: 40%; */
+    width: 450px;
+    margin: 1vw;
+    border: 1.5pt solid seagreen;
+    border-radius: 5%;
 }
 
 .poster {
+ 
     width: 310px;
     height: 252px;
-    /* width: 100%;
-     */
-    /* max-width: 388,5px;
-    min-width: 38,5px;
-    max-height: 315px;
-    min-width: 31,5px;
-   overflow: hidden;  */
+    border-radius: 5% 0 0 5% ;
+    overflow: hidden; 
 }
 
 .right{
@@ -68,5 +75,59 @@ nav a
 
 .left{
     width:60%;
-    overflow: hidden;
+    overflow: hidden; 
+}
+
+.button{
+    color: seagreen;
+    font-size: 16pt;
+    font-weight: bold;
+    display: inline;
+    margin: 1vw 0 0 0;
+    background-color: #181818;
+    width: 100px;
+    height: 50px;
+}
+
+.green{
+    display: inline-block;
+    background-color: seagreen;
+    color: white;
+    border-radius: 5%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 25pt;
+    font-weight: bold;
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+    /* adaptions for mobile friendlyness*/
+  
+.movie{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 450px;
+
+
+}
+
+.poster {
+    width: 155px;
+    height: 126px;
+}
+
+.right{
+    width:80%;
+}
+  
+.left{
+    width: 80%;
+}
+
 }
